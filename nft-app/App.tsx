@@ -1,10 +1,8 @@
-import { StatusBar } from 'expo-status-bar';
-import { SafeAreaView, StyleSheet, TouchableOpacity,Modal,Text, View ,FlatList, ScrollView ,TextInput,Image,Linking, ScrollViewComponent} from 'react-native';
-import tw from 'twrnc';
+import { StyleSheet} from 'react-native';
 import React, { useState } from "react";
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-import { Ionicons,FontAwesome ,AntDesign,FontAwesome5,MaterialIcons} from '@expo/vector-icons';
+import { Ionicons,AntDesign,FontAwesome5} from '@expo/vector-icons';
 import {createStackNavigator} from '@react-navigation/stack';
 
 import Markets from './screens/Markets';

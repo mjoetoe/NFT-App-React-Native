@@ -9,7 +9,7 @@ import { getNftCalendar, getTrendingCollections } from '../utils/apiData';
 
 import ItemCollection from '../components/ItemCollection';
 import CalendarItem from '../components/CalendarItem';
-import { ScrollView } from 'react-native-gesture-handler';
+
 
 export default function Homescreen({navigation}) {    
       //NFT collection api call          
@@ -26,8 +26,7 @@ export default function Homescreen({navigation}) {
       const [calendarData, setCalendarData] = useState();
       const getCalendarData = async () => {
           const data = await getNftCalendar();
-          const newdata = data.slice(0,2)    
-          console.log(newdata)      
+          const newdata = data.slice(0,2)             
           setCalendarData(newdata);          
       }
       useEffect(() => {

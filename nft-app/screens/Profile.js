@@ -46,8 +46,8 @@ const Floor = () => {
     const [refreshing, setRefreshing] = React.useState(false);
 
     const onRefresh = React.useCallback(() => {
-    setRefreshing(true);
-    wait(1000).then(() => setRefreshing(false));
+        setRefreshing(true);
+        wait(1000).then(() => setRefreshing(false));
     }, []);
     
     return(    
@@ -83,14 +83,14 @@ const Items = () => {
         getCollectionData();
     },[])
     const wait = (timeout) => {
-    return new Promise(resolve => setTimeout(resolve, timeout));
+        return new Promise(resolve => setTimeout(resolve, timeout));
     }
     
     const [refreshing, setRefreshing] = React.useState(false);
 
     const onRefresh = React.useCallback(() => {
-    setRefreshing(true);
-    wait(1000).then(() => setRefreshing(false));
+        setRefreshing(true);
+        wait(1000).then(() => setRefreshing(false));
     }, []);
 
     const Item = ({ item }) => (

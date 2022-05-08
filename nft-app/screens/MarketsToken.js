@@ -29,8 +29,8 @@ export default function MarketsToken({navigation}) {
     const [refreshing, setRefreshing] = React.useState(false);
 
     const onRefresh = React.useCallback(() => {
-    setRefreshing(true);
-    wait(1000).then(() => setRefreshing(false));
+      setRefreshing(true);
+      wait(1000).then(() => setRefreshing(false));
     }, []);
 
   const Item = ({ item }) => (

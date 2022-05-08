@@ -12,7 +12,6 @@ export const getTrendingCollections = async () => {
 }
 export const getSlugDetailCollection = async (slug) => {
 	const data = await get(`https://api.nftinit.io/api/assetsv3/?count=1&page=1&slug=${slug}&order_by=ranking&trait_count=true&trait_normalization=true&`);
-	//console.log(data.collection_details.id)
 	return [data.collection_details]
 }
 //Dapper API

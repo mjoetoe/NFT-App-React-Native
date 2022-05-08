@@ -17,6 +17,7 @@ const FloorItemsProfile = ({name,count,floorPrice,LogoUrl,backUpImage,backUpName
     if(name === ""){
         name = backUpName
     }
+    
     return (
     <TouchableOpacity onPress={() => Linking.openURL("https://opensea.io/collection/"+Slug  )}>
       <View style={styles.itemwrapper}>
