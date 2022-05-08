@@ -1,5 +1,5 @@
 {
-  "name": "nft-app",
+  "name": "tailwind-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -10,12 +10,28 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@react-native-masked-view/masked-view": "^0.2.6",
+    "@react-navigation/bottom-tabs": "^6.3.1",
+    "@react-navigation/material-top-tabs": "^6.2.1",
+    "@react-navigation/stack": "^6.2.1",
     "expo": "~44.0.0",
+    "expo-linear-gradient": "~11.0.3",
     "expo-status-bar": "~1.2.0",
+    "lottie-react-native": "^5.0.1",
     "react": "17.0.1",
+    "react-bones": "^1.0.3",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-native-web": "0.17.1"
+    "react-native-gesture-handler": "~2.1.0",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-pager-view": "5.4.9",
+    "react-native-shimmer-placeholder": "^2.0.8",
+    "react-native-skeleton-content": "^1.0.24",
+    "react-native-skeleton-loader": "^1.0.3",
+    "react-native-skeleton-placeholder": "^5.0.0",
+    "react-native-tab-view": "^3.1.1",
+    "react-native-web": "0.17.1",
+    "twrnc": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
