@@ -2,10 +2,10 @@
 A place to check your favorite NFT projects 
 
 ## notities voor leerkracht
--Ik ben voortdurend bezig met NFT's en zou graag een app ontwikkelen die ik ook zelf kan gebruiken. 
--Ik wil graag een platform maken dat is verbonden met de huidige NFT-marktplaats (OpenSea), waardoor ik alle NFT-projecten op één plaats kan tonen en de benodigde informatie via hun API kan weergeven. 
--Ik zou graag met een CSS-framework werken zoals Tailwind CSS voor React, maar dat is niet geoptimaliseerd voor React Native, dus ik ga op zoek naar een ander CSS-framework dat erop lijkt en gebruik componenten van dat framework om mijn app te maken. 
--Deze app is bedoeld voor IOS.
+- Ik ben voortdurend bezig met NFT's en zou graag een app ontwikkelen die ik ook zelf kan gebruiken. 
+- Ik wil graag een platform maken dat is verbonden met de huidige NFT-marktplaats (OpenSea), waardoor ik alle NFT-projecten op één plaats kan tonen en de benodigde informatie via hun API kan weergeven. 
+- Ik zou graag met een CSS-framework werken zoals Tailwind CSS voor React, maar dat is niet geoptimaliseerd voor React Native, dus ik ga op zoek naar een ander CSS-framework dat erop lijkt en gebruik componenten van dat framework om mijn app te maken. 
+- Deze app is bedoeld voor IOS.
 
 
 ## uitleg
